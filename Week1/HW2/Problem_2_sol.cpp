@@ -41,5 +41,7 @@ int main()
     Solution sol;
     string s = "babad";
     string substring = sol.longestPalindrome(s);
-    cout << substring << endl;
+    cout << "Output: " << substring << endl;
+
+    return 0;
 }

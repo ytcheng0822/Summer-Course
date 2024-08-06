@@ -40,16 +40,13 @@ public:
 };
 
 int main()
-{   
+{
     Solution sol;
     vector<int> nums({5, 7, 7, 8, 8, 10});
     vector<int> result(2);
 
     result = sol.searchRange(nums, 8);
-    for (int i = 0; i < result.size(); i++) {
-        cout << result[i] << " ";
-    }
-    cout << "\n";
+    cout << "Output: [" << result[0] << "," << result[1] << "]\n"; 
 
     return 0;
 }

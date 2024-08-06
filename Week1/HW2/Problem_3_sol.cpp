@@ -43,5 +43,7 @@ int main()
     vector<int> nums1({1, 2}), nums2({3, 4});
     double result;
     result = sol.findMedianSortedArrays(nums1, nums2);
-    cout << result << endl;
+    cout << "Output: " << result << endl;
+
+    return 0;
 }
